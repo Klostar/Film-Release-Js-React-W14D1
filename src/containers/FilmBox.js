@@ -40,6 +40,7 @@ render(){
     <div className = 'film-box'>
       <h2>Films</h2>
       <FilmList data={this.state.data}/>
+      <button>Other Film Releases</button>
     </div>
     )
   }
