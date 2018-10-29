@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import FilmBox from './components/FilmBox';
+import FilmBox from './containers/FilmBox';
 
 class App extends Component {
   render() {
