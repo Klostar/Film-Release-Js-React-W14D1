@@ -7,7 +7,9 @@ const filmNodes = this.props.data.map(film =>{
   return(
     <Film
       key={film.id}
-      name={film.name}>
+      name={film.name}
+      url = {film.url}>
+
     </Film>
   )
 })
@@ -15,7 +17,9 @@ const filmNodes = this.props.data.map(film =>{
 
     return(
       <div className ='film-list'>
+        <ul>
         {filmNodes}
+      </ul>
       </div>
     )
   }

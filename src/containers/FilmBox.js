@@ -33,14 +33,17 @@ class FilmBox extends Component{
     url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
   }
 ]
+
+
     }
   }
+
 render(){
   return(
     <div className = 'film-box'>
       <h2>Films</h2>
-      <FilmList data={this.state.data}/>
-      <button>Other Film Releases</button>
+      <FilmList data={this.state.data} />
+      <a href = 'https://www.imdb.com/calendar/?region=gb'>Other Releases</a>
     </div>
     )
   }
