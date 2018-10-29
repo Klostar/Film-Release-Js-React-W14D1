@@ -9,7 +9,6 @@ const filmNodes = this.props.data.map(film =>{
       key={film.id}
       name={film.name}
       url = {film.url}>
-
     </Film>
   )
 })

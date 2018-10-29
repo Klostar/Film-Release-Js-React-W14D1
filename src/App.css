@@ -1,9 +1,11 @@
-
 body{
   background-color: white;
 }
 
-
 .film-box{
-
+border-style: dotted;
+border-width: medium;
+margin-left: 10px;
+width:500px;
+padding: 10px;
 }
