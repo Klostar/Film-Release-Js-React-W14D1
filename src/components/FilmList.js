@@ -13,8 +13,6 @@ const filmNodes = this.props.data.map(film =>{
     </Film>
   )
 })
-
-
     return(
       <div className ='film-list'>
         <ul>
